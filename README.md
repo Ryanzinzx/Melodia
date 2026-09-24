@@ -67,7 +67,7 @@ melodia/
 2. Botão **Ouvir Agora** que toca e pausa a melodia com beat e faz o vinil girar.
 3. Formulário com campos obrigatórios (`required`) que mostra uma mensagem de sucesso ao enviar.
 
-## Como rodar localmente
+## Rodar localmente
 
 https://ryanzinzx.github.io/Melodia/
 
