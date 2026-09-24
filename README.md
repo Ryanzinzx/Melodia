@@ -69,7 +69,7 @@ melodia/
 
 ## Rodar localmente
 
-https://ryanzinzx.github.io/Melodia/
+https://ryanzinzx.github.io/Melodia_app/
 
 ## Integrantes do grupo
 
