@@ -69,13 +69,7 @@ melodia/
 
 ## Como rodar localmente
 
-Abra o `index.html` no navegador. É preciso ter internet, pois Tailwind, Font Awesome e Google Fonts vêm por CDN.
-
-## Como publicar no GitHub Pages
-
-1. Crie um repositório no GitHub e envie todos os arquivos desta pasta (o `index.html` deve ficar na raiz).
-2. Em **Settings > Pages**, escolha **Deploy from a branch**, selecione a branch `main` e a pasta `/ (root)`, e clique em **Save**.
-3. Depois de alguns minutos o link aparece na mesma tela. Cole o link no topo deste README e entregue no Teams.
+https://ryanzinzx.github.io/Melodia/
 
 ## Integrantes do grupo
 
