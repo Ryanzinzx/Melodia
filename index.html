@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melodia: Sua Música, Sua Forma</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Unbounded:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-white text-slate-900">
+
+  <header id="menu" class="nav fixed top-0 left-0 w-full z-50 text-white">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center px-5 py-4">
+      <a href="#inicio" class="logo text-xl font-bold">
+        <i class="fa-solid fa-compact-disc text-lime-300"></i> melodia
+      </a>
+
+      <ul class="hidden md:flex gap-8 font-semibold">
+        <li><a class="hover:text-lime-300" href="#beneficios">Benefícios</a></li>
+        <li><a class="hover:text-lime-300" href="#funcionalidades">Funcionalidades</a></li>
+        <li><a class="hover:text-lime-300" href="#depoimentos">Depoimentos</a></li>
+        <li><a class="hover:text-lime-300" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="bg-blue-600 text-white pt-32 pb-20">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-12 px-5">
+
+        <div>
+          <h1 class="text-4xl font-bold">Melodia: Sua Música, Sua Forma</h1>
+          <p class="text-lg mt-6">
+            O app de música com som de estúdio, playlists do seu jeito e artistas novos toda semana.
+          </p>
+          <button id="btn-ouvir" class="bg-lime-300 text-slate-900 font-bold px-8 py-4 rounded-full mt-8 hover:bg-lime-400">
+            <i class="fa-solid fa-play"></i> Ouvir Agora
+          </button>
+        </div>
+
+        <!-- Imagem em destaque: capa de álbum + vinil (feitos com CSS) -->
+        <div class="relative w-80 h-80 mx-auto">
+          <div class="vinil absolute top-4 right-0 w-72 h-72"></div>
+          <div class="capa absolute bottom-0 left-0 w-60 h-60 rounded-2xl shadow-2xl"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="beneficios" class="py-20">
+      <div class="max-w-6xl mx-auto px-5">
+        <h2 class="text-3xl font-bold text-center">Feita para quem vive de música</h2>
+        <p class="text-lg text-gray-600 text-center mt-4">
+          A Melodia reúne em um só lugar o que você mais procura em um app de música.
+        </p>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+          <div class="text-center">
+            <i class="fa-solid fa-headphones text-4xl text-blue-600"></i>
+            <h3 class="text-lg font-bold mt-4">Som superior</h3>
+            <p class="text-gray-600 mt-2">Áudio de alta qualidade, sem perder detalhes da gravação.</p>
+          </div>
+
+          <div class="text-center">
+            <i class="fa-solid fa-music text-4xl text-blue-600"></i>
+            <h3 class="text-lg font-bold mt-4">Playlists personalizadas</h3>
+            <p class="text-gray-600 mt-2">Monte suas listas do seu jeito, para cada momento do dia.</p>
+          </div>
+
+          <div class="text-center">
+            <i class="fa-solid fa-compass text-4xl text-blue-600"></i>
+            <h3 class="text-lg font-bold mt-4">Novos artistas</h3>
+            <p class="text-gray-600 mt-2">Descubra quem está começando agora e ainda vai estourar.</p>
+          </div>
+
+          <div class="text-center">
+            <i class="fa-solid fa-hand-pointer text-4xl text-blue-600"></i>
+            <h3 class="text-lg font-bold mt-4">Interface intuitiva</h3>
+            <p class="text-gray-600 mt-2">Poucos toques e nenhuma tela escondida. Sem precisar de tutorial.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="funcionalidades" class="bg-blue-50 py-20">
+      <div class="max-w-6xl mx-auto px-5">
+        <h2 class="text-3xl font-bold text-center">O que você faz na Melodia</h2>
+
+        <div class="grid md:grid-cols-3 gap-6 mt-12">
+
+          <article class="bg-white rounded-2xl shadow p-8">
+            <i class="fa-solid fa-play-circle text-4xl text-blue-600"></i>
+            <h3 class="text-lg font-bold mt-4">Player completo</h3>
+            <p class="text-gray-600 mt-2">Toque, pause, avance e volte faixas com controles simples e grandes.</p>
+          </article>
+
+          <article class="bg-white rounded-2xl shadow p-8">
+            <i class="fa-solid fa-wand-magic-sparkles text-4xl text-blue-600"></i>
+            <h3 class="text-lg font-bold mt-4">Playlists por clima</h3>
+            <p class="text-gray-600 mt-2">Escolha entre foco, treino, viagem ou festa e a Melodia sugere as faixas.</p>
+          </article>
+
+          <article class="bg-white rounded-2xl shadow p-8">
+            <i class="fa-solid fa-user-group text-4xl text-blue-600"></i>
+            <h3 class="text-lg font-bold mt-4">Vitrine de artistas</h3>
+            <p class="text-gray-600 mt-2">Toda semana, novos artistas escolhidos a partir do que você já ouve.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="depoimentos" class="bg-slate-900 text-white py-20">
+      <div class="max-w-6xl mx-auto px-5">
+        <h2 class="text-3xl font-bold text-center">Quem já usa, aprova</h2>
+
+        <div class="grid md:grid-cols-3 gap-8 mt-12">
+
+          <figure class="bg-slate-800 rounded-2xl p-8">
+            <blockquote>“Criei uma playlist para a semana de provas em dois minutos.”</blockquote>
+            <figcaption class="flex items-center gap-4 mt-6">
+              <img src="assets/avatars/beatriz.svg" alt="Foto de perfil de Beatriz" class="w-14 h-14 rounded-full">
+              <div>
+                <p class="font-bold">Beatriz, 21 anos</p>
+                <p class="text-sm text-gray-400">Estudante de Design</p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="bg-slate-800 rounded-2xl p-8">
+            <blockquote>“O som é outra coisa. Ouvi detalhes que eu nunca tinha notado.”</blockquote>
+            <figcaption class="flex items-center gap-4 mt-6">
+              <img src="assets/avatars/rafael.svg" alt="Foto de perfil de Rafael" class="w-14 h-14 rounded-full">
+              <div>
+                <p class="font-bold">Rafael, 24 anos</p>
+                <p class="text-sm text-gray-400">Produtor de eventos</p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="bg-slate-800 rounded-2xl p-8">
+            <blockquote>“A vitrine de artistas novos já me apresentou três bandas que amei.”</blockquote>
+            <figcaption class="flex items-center gap-4 mt-6">
+              <img src="assets/avatars/camila.svg" alt="Foto de perfil de Camila" class="w-14 h-14 rounded-full">
+              <div>
+                <p class="font-bold">Camila, 19 anos</p>
+                <p class="text-sm text-gray-400">Estudante de Jornalismo</p>
+              </div>
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="bg-lime-300 py-20">
+      <div class="max-w-xl mx-auto px-5">
+        <h2 class="text-3xl font-bold text-center">Receba as novidades</h2>
+        <p class="text-lg text-center mt-4">Deixe seu e-mail para saber primeiro sobre lançamentos e novos recursos.</p>
+
+        <form id="form-contato" class="bg-white rounded-2xl p-6 mt-8">
+          <label for="nome" class="font-semibold">Nome</label>
+          <input id="nome" type="text" placeholder="Seu nome" required
+            class="w-full border border-gray-300 rounded-lg px-4 py-3 mt-1 mb-4">
+
+          <label for="email" class="font-semibold">E-mail</label>
+          <input id="email" type="email" placeholder="voce@email.com" required
+            class="w-full border border-gray-300 rounded-lg px-4 py-3 mt-1 mb-4">
+
+          <button type="submit" class="w-full bg-slate-900 text-white font-bold rounded-full px-6 py-4 hover:bg-blue-600">
+            Quero receber novidades
+          </button>
+          <p id="msg-form" class="text-center font-semibold mt-4"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-blue-600 text-white pt-14">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 px-5 pb-10">
+
+      <div>
+        <p class="logo text-2xl font-bold"><i class="fa-solid fa-compact-disc text-lime-300"></i> melodia</p>
+        <p class="mt-3">Sua música, sua forma.</p>
+      </div>
+
+      <div>
+        <h3 class="font-bold">Contato</h3>
+        <ul class="mt-3">
+          <li class="mb-2"><i class="fa-solid fa-envelope w-6 text-lime-300"></i>contato@melodia.example</li>
+          <li class="mb-2"><i class="fa-solid fa-phone w-6 text-lime-300"></i>(11) 4000-0000</li>
+          <li><i class="fa-solid fa-location-dot w-6 text-lime-300"></i>São Paulo, SP</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-bold">Redes sociais</h3>
+        <ul class="flex gap-4 text-2xl mt-3">
+          <li><a href="#" aria-label="Instagram" class="hover:text-lime-300"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#" aria-label="TikTok" class="hover:text-lime-300"><i class="fa-brands fa-tiktok"></i></a></li>
+          <li><a href="#" aria-label="YouTube" class="hover:text-lime-300"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-blue-400 px-5 py-6">
+      <div class="max-w-6xl mx-auto">
+        <!-- Política de privacidade (abre e fecha ao clicar) -->
+        <details class="mb-4">
+          <summary class="cursor-pointer font-semibold hover:text-lime-300">Política de privacidade</summary>
+          <p class="text-sm mt-2">
+            Usamos seu nome e e-mail apenas para enviar novidades da Melodia. Não compartilhamos seus dados
+            com terceiros e você pode pedir a remoção deles quando quiser.
+          </p>
+        </details>
+        <p class="text-sm">&copy; 2026 Melodia. Projeto acadêmico da FIAP.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; 
+}
+
+/*Fontes do Google Fonts*/
+body {
+  font-family: 'Figtree', sans-serif;
+}
+
+h1, h2, h3, .logo {
+  font-family: 'Unbounded', sans-serif;
+}
+
+.logo {
+  text-transform: lowercase;
+}
+
+/*Menu fixo: transparente no topo*/
+.nav {
+  transition: background-color 0.3s;
+}
+
+.nav-rolagem {
+  background-color: rgba(15, 23, 42, 0.9);
+}
+
+.capa {
+  background:
+    radial-gradient(circle at 28% 72%, #bef264 0 30%, transparent 31%),
+    radial-gradient(circle at 72% 30%, #f9a8d4 0 22%, transparent 23%),
+    #1d4ed8;
+  border: 4px solid white;
+}
+
+.vinil {
+  border-radius: 9999px;
+  background:
+    radial-gradient(circle, #0f172a 0 8%, #f9a8d4 9% 28%, transparent 29%),
+    repeating-radial-gradient(circle, #0f172a 0 2px, #1e293b 2px 3px);
+  animation: girar 4s linear infinite;
+  animation-play-state: paused;
+}
+
+.tocando .vinil {
+  animation-play-state: running;
+}
+
+@keyframes girar {
+  to { transform: rotate(360deg); }
+}
+
+summary {
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
